@@ -1,0 +1,17 @@
+server:
+    port: 8090
+
+block:
+    ##设定哈希值前difficulty位都是0时,满足计算结果
+    difficulty: 4
+    ##当前节点p2pserver端口号
+    p2pport: 7001
+    ##要连接的节点地址
+    address1: ws://node11:7001
+    address2: ws://node12:7001
+    address3: ws://node13:7001
+    address4: ws://node14:7001
+    address5: ws://node21:7001
+    address6: ws://node22:7001
+    address7: ws://node23:7001
+    address8: ws://node24:7001
